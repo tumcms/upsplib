@@ -14,5 +14,6 @@ maximumDelay Alpha Beta
 
 The maximumDelay defines the range of the beta distribution. So each activities duration is distributed between the original duration from PSPLIB + the beta distributed delay with parameters Alpha and Beta.
 
+The duration of an activity can hence be sampled using:
 
-
+originalDuration + maximumDelay * BetaSample(Alpha, Beta)
