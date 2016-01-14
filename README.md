@@ -1,4 +1,5 @@
-# fpsplib
+#fpsplib
+
 Fuzzy extension to the Project Scheduling Library PSPLIB single mode problems.
 
 Base files can be downloaded here:
@@ -12,13 +13,12 @@ Each line contains the following parameters:
 
 maximumDelay Alpha Beta
 
-The maximumDelay defines the range of the beta distribution. So each activities duration is distributed between the original duration from PSPLIB + the beta distributed delay with parameters Alpha and Beta.
+The maximumDelay defines the range of the beta distribution. So each activity's duration is distributed between the original duration from PSPLIB + the beta distributed delay with parameters Alpha and Beta.
 
 The duration of an activity can hence be sampled using:
 
-originalDuration + maximumDelay * BetaSample(Alpha, Beta)
+samplesDuration = originalDuration + maximumDelay * BetaSample(Alpha, Beta)
 
 Contact: 
 
-Maximilian Bügler
-max.buegler@tum.de
+Maximilian Bügler <max.buegler@tum.de>
