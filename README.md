@@ -17,3 +17,8 @@ The maximumDelay defines the range of the beta distribution. So each activities 
 The duration of an activity can hence be sampled using:
 
 originalDuration + maximumDelay * BetaSample(Alpha, Beta)
+
+Contact: 
+
+Maximilian Bügler
+max.buegler@tum.de
