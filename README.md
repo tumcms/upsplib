@@ -1,6 +1,6 @@
-#fpsplib
+#upsplib
 
-Fuzzy extension to the Project Scheduling Library PSPLIB single mode problems. Turning the RCPSPs within the library into SRCPSPs.
+Uncertainty extension to the Project Scheduling Library PSPLIB single mode problems. Turning the RCPSPs within the library into SRCPSPs.
 
 Base files can be downloaded here:
 
